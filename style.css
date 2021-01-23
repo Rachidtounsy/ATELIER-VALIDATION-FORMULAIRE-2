@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(242, 243, 241);
+  font-family: cursive;
+}
+
+h1{
+  font-family: fantasy;
+  text-decoration: underline;
+}
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 1rem;
+}
+
+#nom, #residance, #age, #email {
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  
+}
+
+#lang, #profession{
+  margin-bottom: 20px;
+}
+
+#profession{
+  padding: 3px;
+  margin-left: 10px;
+  font-weight: bold;
+  background-color: darkcyan;
+  outline: none;
+}
+
+.btn{
+  padding: 5px;
+  margin: 5px;
+  font-weight: bolder;
+  background-color: coral;
+}
+
+label{
+  font-family: fantasy;
+  text-decoration: overline;
+}
+
+span{
+  color: brown;
+  font-family: fantasy;
+}
+
+#d1, #d2{
+  margin: 15px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>ATELIER VALIDATION FORMULAIRE 2</title>
+</head>
+<body>
+  
+    <div class="container">
+
+      <form >
+          <label for="nom">Nom</label><br>
+          <input type="text" placeholder="nom ici" id="nom">
+
+          <hr>
+
+          <label for="residance">Residance</label><br>
+          <input type="text" placeholder="residance" id="residance">
+
+          <hr>
+
+          <label for="email">Email</label><br>
+          <input type="text" placeholder="email ici" id="email"><br>
+
+          <hr>
+
+          <label for="age">Age</label><br>
+          <input type="text" placeholder="age ici" id="age">
+          <br><br>
+
+          <label>Langue Parlée :</label>
+          <input type="checkbox" name="checkbox1" value="Arab">AR
+          <input type="checkbox" name="checkbox1" value="Francais">FR
+          <input type="checkbox" name="checkbox1" value="Anglais" id="lang">ENG
+
+          <br>
+
+
+          <label class="proff">Profession</label>
+          <select id="profession">
+            <option>Selctionner une profession</option>
+            <option>Etudiant</option>
+            <option>Chanteur</option>
+            <option>Acteur</option>
+            <option>Architecte</option>
+          </select>
+
+          <br>
+
+          <input type="button" value="Envoyer" onclick="valider()" class="btn">
+          <input type="button" value="Interrompre" class="btn" onclick="location.reload()">
+
+      </form>
+
+      <div id="d1"><!-- pour afficher le message --></div>
+
+      <div id="d2"><!-- pour afficher le message --></div>
+    </div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
